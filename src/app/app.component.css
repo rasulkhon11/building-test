@@ -1,0 +1,72 @@
+.container {
+    max-width: 1125px;
+    min-width: 1125px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+}
+
+.body {
+    position: relative;
+}
+
+.svg-block {
+    position: absolute;
+}
+
+svg {
+    max-width: 1125px;
+}
+
+.img {
+    max-width: 1125px;
+}
+
+.popup {
+    width: 306px;
+    height: 84px;
+    position:absolute;
+    top:500px;
+    left:500px;
+    display:none;
+    background: url('../assets/img/popup.png') top left no-repeat
+}
+
+.popup .etazh-caption {
+    display: inline-block;
+    width: 65px;
+    text-align: center;
+    color:#fff;
+    padding: 10px;
+    font-family: "PTSans";
+    vertical-align: middle;
+}
+
+.popup .etazh-caption h1 {
+    font-size: 32px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #ffd6bb;
+}
+
+.popup .etazh-caption h2 {
+    font-size: 18px;
+
+}
+
+.popup .flat-qty {
+    font-family: "PTSans";
+    color:#D2F2FF;
+    display: inline-block;
+    vertical-align: middle;
+}
+.popup .flat-qty span {
+    display:inline-block;
+    vertical-align: middle;
+}
+.popup .flat-qty .count {
+    margin-left: 5px;
+    font-size: 24px;
+    color: #FFCBBD;
+}
+
+
